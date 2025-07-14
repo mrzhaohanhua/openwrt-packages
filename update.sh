@@ -5,7 +5,7 @@ if ! git pull; then
     exit 1
 fi
 
-passwall_version="24.12.08-1"
+passwall_version="25.7.6-1"
 download_path="download"
 
 rm -rf "$download_path"
